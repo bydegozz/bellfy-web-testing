@@ -1,0 +1,15 @@
+h3 {
+  font-family: Cormorant Infant;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: red;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+p {
+  font-family: Raleway;
+  font-size: 14px;
+  color: blue;
+  text-align: center;
+  margin: 0 0 20px 0;
+}

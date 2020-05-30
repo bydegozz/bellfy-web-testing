@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./assets/css/App.css";
+//import "./database.json";
+import TitleDescription from "./components/TitleDescription";
+import { Container, Typography } from "@material-ui/core";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Container maxWidth="sm">
+        <Typography
+          component="div"
+          style={{ backgroundColor: "#cfe8fc", height: "100vh" }}
+        />
+        <TitleDescription />
+      </Container>
+    );
+  }
 }
 
 export default App;
